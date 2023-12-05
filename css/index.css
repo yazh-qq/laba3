@@ -1,0 +1,50 @@
+.title1{
+  text-align: center;
+  font-size: 52px;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+  color: white
+}
+.color1{
+  color: white;
+  background: rgba(68, 118, 100, 1);
+  text-align: center;
+}
+.color2{
+  color: white;
+  background: rgba(102, 102, 102, 1);
+  text-align: center;
+}
+.color3{
+  color: white;
+  background: rgba(73, 73, 73, 1);
+  text-align: center;
+}
+.advert{
+  color: white;
+  background: rgba(73, 73, 73, 1);
+  text-align: center;
+}
+/*цвет при наведении на ссылку*/
+a:hover {
+  background: rgba(68, 118, 100, 1);
+}
+/*цвет ссылки*/
+a{ 
+  color: white;
+  text-decoration: none;
+}
+/*цвет после посещения ссылки*/
+a.visited {
+  color: white;
+}
+.link{
+  border: 3px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+iframe{
+  border: none;
+  height: 100%;
+}
